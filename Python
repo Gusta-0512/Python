@@ -1,0 +1,102 @@
+# Criacao de variaveis no Python
+
+# Criacao de uma ariavel numerica inteira
+numero_inteiro = 99
+
+# Funcao de saida de dados no Python (print)
+print(numero_inteiro)
+
+# Criacao de uma variavel numerica real (float)
+nota_aluno = 9.9
+
+# Mostra o conteudo da variavel nota_aluno
+print(nota_aluno)
+
+# Mostra o tipo de dado da variavel nota_aluno
+print(type(nota_aluno))
+
+# Mostra mensagem de texto junto com variavel
+print(f"A nota do aluno eh {nota_aluno}")
+
+# operacoes aritimeticas no Python
+
+num1 = 33
+num2 = 35
+
+# Adicao
+soma = num1 + num2
+
+print(f"A soma dos numeros eh {soma}")
+
+# Subtracao
+subtracao = num1 - num2
+
+print(f"A subtracao dos numeros eh {subtracao}")
+
+# Multiplicacao
+multiplicacao = num1 * num2
+
+print(f"A multipacao dos numeros eh {multiplicacao}")
+
+# Divisao
+divisao = num1 / num2
+
+print(f'A divisao dos numeros eh {divisao}')
+
+# Limitar as casas decimais (exemplo: 2 casas decimais)
+print(f'A divisao com 2 casas decimais eh {divisao: .3f}')
+
+# Exponenviacao
+num1_cubo = num1 ** 3
+
+print(f'{num1} elevado ao cubo eh {num1_cubo}')
+
+# Resto da divisao
+resto_divisao = num1 % 33
+
+print(f'Oresta da divisao de {num1} por 2 eh {resto_divisao}')
+
+# Funcao para entrada de dados no Python (input)
+
+# Entrada de uma variavel texto
+nome_pessoa = input('Digite o seu nome')
+
+print(f'o nome da pessoa eh{nome_pessoa}')
+
+# Entrada de uma variavel numerica inteira
+idade_pessoa = int(input('Digite sua idade'))
+
+print(type(idade_pessoa))
+
+print(f'a idade da pessoa eh {idade_pessoa}')
+
+print(f'O salario do funcionario eh {salario_funcionario}')
+
+# Entrada de uma variavel numerica real (float)
+salario_funcionario = float(input('Digite o seu salario'))
+
+'''
+Escreva um programa em Python que solicite 2 numeros inteiros,
+calcule e mostre a soma desses numeros
+'''
+
+num1 = int(input('Digite o primeiro numero da soma'))
+num2 = int(input('Digite o segundo numero da soma'))
+
+soma = num1 + num2
+
+print(f'A soma dos numeros {num1} e {num2} eh {soma}')
+
+'''
+Escreva um programa em Python que solicite
+3 notas de avaliacoes, calcule e mostre a media
+aritmetica dessa avaliacao
+'''
+
+nota1 = float(input('Digite a primeira nota'))
+nota2 = float(input('Digite a primeira nota'))
+nota3 = float(input('Digite a primeira nota'))
+
+media = (nota1 + nota2 + nota3) / 3
+
+print(f'A media das notas {nota1}, {nota2} e {nota3} eh{media: .1f}')
